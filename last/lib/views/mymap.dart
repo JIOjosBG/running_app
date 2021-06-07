@@ -11,7 +11,8 @@ class MyMap extends StatelessWidget {
 
     return Scaffold(
       body: Center(
-        child: Text("${locationModel.latitude},${locationModel.longitude}"),
+        child: Text(
+            "Latitude ${locationModel.latitude}, longitude ${locationModel.longitude}"),
       ),
     );
   }
