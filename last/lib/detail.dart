@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 
-import './bottomBar.dart';
-
 class DetailActivity extends StatelessWidget {
   final activity;
   final String title;
@@ -10,7 +8,7 @@ class DetailActivity extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      bottomNavigationBar: BottomBar(),
+      //bottomNavigationBar: BottomBar(),
       appBar: AppBar(
         title: Text(title.toString()),
       ),

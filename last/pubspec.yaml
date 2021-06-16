@@ -24,7 +24,7 @@ dependencies:
   flutter:
     sdk: flutter
     
-  location: ^4.2.0
+  location: ^4.3.0
   provider: ^5.0.0 
 
 
